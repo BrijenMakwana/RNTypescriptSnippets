@@ -1,6 +1,7 @@
 {
     "name": "rn-typescript-snippets",
     "displayName": "RN Typescript Snippets",
+    "publisher": "BrijenMakwana",
     "description": "Generate typescript snippets for React Native",
     "version": "0.0.1",
     "engines": {

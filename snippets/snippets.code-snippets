@@ -52,5 +52,14 @@
             "export default ${TM_FILENAME_BASE}"
         ],
         "description": "Generate React native typescript function module"
+    },
+    "RN typescript props":{
+        "prefix": "rntp",
+        "body":[
+            "export type $1Props = {",
+            "\t",
+            "\t}"
+        ],
+        "description": "Generate React native typescript props interface"
     }
 }

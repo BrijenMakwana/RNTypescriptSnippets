@@ -14,15 +14,15 @@ Easily generate pre-written snippets when working with typescript in React Nativ
 
 ## Screenshots
 1. Generate boiler plate code for Typescript with React Native including type interface and StyleSheet.
-- prefix: rntfs
+### prefix: rntfs
 ![rntfs](images/rntfs.gif)
 
 2. Generate boiler plate code for Typescript with React Native including type interface.
-- prefix: rntf
+### prefix: rntf
 ![rntf](images/rntf.gif)
 
 3. Generate type interface.
-- prefix: rntp
+### prefix: rntp
 ![rntp](images/rntp.gif)
 
 ## 🚀 About Me

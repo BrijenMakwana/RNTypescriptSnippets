@@ -6,6 +6,11 @@
     "engines": {
         "vscode": "^1.65.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BrijenMakwana/RNTypescriptSnippets"
+    },
+    "icon": "images/icon_snippets.png",
     "categories": [
         "Snippets"
     ],

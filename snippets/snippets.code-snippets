@@ -1,1 +1,32 @@
-{}
+{
+    "React native typescript function module":{
+        "prefix": "rntf",
+        "body":[
+            "import React from 'react';",
+            "import { Text, View } from 'react-native';",
+            "",
+            "export type $1 = {",
+            "\t",
+            "\t}",
+            "",
+            "",
+            "const $1 = (props: $1Props) => {",
+
+            "\treturn (",
+                "\t\t<View style={styles.container}>",
+                "\t\t\t<Text></Text>",
+                "\t\t</View>",
+                "\t)",
+            "}",
+            "",
+            "export default $1",
+            "",
+            "const styles = StyleSheet.create({",
+            "\tcontainer:{",
+            "\t\t\t",
+                "\t}",
+            "})"
+        ],
+        "description": "Generate React native typescript function module"
+    }
+}

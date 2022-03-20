@@ -1,6 +1,6 @@
 {
-    "React native typescript function module":{
-        "prefix": "rntf",
+    "RN typescript function module with StyleSheet":{
+        "prefix": "rntfs",
         "body":[
             "import React from 'react';",
             "import { Text, View, StyleSheet } from 'react-native';",
@@ -26,6 +26,30 @@
             "\t\t\t",
                 "\t}",
             "})"
+        ],
+        "description": "Generate React native typescript function module with StyleSheet"
+    },
+    "RN typescript function module":{
+        "prefix": "rntf",
+        "body":[
+            "import React from 'react';",
+            "import { Text, View } from 'react-native';",
+            "",
+            "export type ${TM_FILENAME_BASE}Props = {",
+            "\t",
+            "\t}",
+            "",
+            "",
+            "const ${TM_FILENAME_BASE} = (props: ${TM_FILENAME_BASE}Props) => {",
+
+            "\treturn (",
+                "\t\t<View>",
+                "\t\t\t<Text>${TM_FILENAME_BASE} component</Text>",
+                "\t\t</View>",
+                "\t)",
+            "}",
+            "",
+            "export default ${TM_FILENAME_BASE}"
         ],
         "description": "Generate React native typescript function module"
     }
